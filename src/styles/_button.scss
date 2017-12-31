@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+.buttons .button {
+    margin: 10px;
+}
+
+.button {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #afa58d;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.2rem
+}
+.button:hover {
+    opacity: .9;
+}
+
+.button-showy {
+    background-color: #f1b400;
+}
+
+.button-ghost {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
